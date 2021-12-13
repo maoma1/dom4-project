@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 4 project</title>
+<link rel="stylesheet" href="styles.css"/>
+    <style>
+        select {
+            color:rgb(8, 8, 8);
+            background-color: rgb(236, 195, 202);
+            padding: 10px;
+            font-size: 1rem;
+
+            
+        }
+
+    </style>
+</head>
+<body>
+     
+<!--create an HTML file with a dropdown, and a button next to it.-->
+   
+<select id="grocery-list" onchange="myList()">
+   
+<option value="potatoes">potatoes</option>
+<option value="cabbages">cabbages</option>
+<option value="carrots">carrots</option>
+
+</select>
+<button onclick="displayItems()">Click to display no </button>
+     <script src="dom4.js"></script>
+</body>
+</html>
